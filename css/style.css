@@ -48,14 +48,31 @@ img{
 }
 .btn__clear{
     padding: 10px;
-    margin: 0 15px;
+    margin: 5px 15px;
     border: none;
     width: 90%;
     background-color:  #148e92;
     color: #fff;
+    cursor: pointer;
+}
+
+.btn__clear:hover{
+    background-color:  #106366;
 }
 
 
 
+.btn__get{
+    padding: 10px;
+    margin: 0 15px;
+    border: none;
+    width: 90%;
+    background-color:  #eb7558;
+    color: #fff;
+    cursor: pointer;
+}
 
+.btn__get:hover{
+    background-color:  #682404;
+}
 
